@@ -1,0 +1,54 @@
+:root {
+  --main-color: hsl(300, 43%, 22%);
+  --secondary-color: hsl(300, 24%, 96%);
+  --main-text: hsl(303, 10%, 53%);
+  --aditional-txt: hsl(333, 80%, 67%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.6%;
+  font-family: "Spartan", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+body > h1 {
+  color: var(--main-color);
+  margin: 0 20px;
+  text-align: center;
+}
+
+body > p {
+  color: var(--main-text);
+  margin: 0 20px;
+  text-align: center;
+}
+
+.ratings-container {
+  margin: 0 20px;
+}
+
+.rating {
+  background-color: var(--secondary-color);
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 2;
+  padding: 1rem 0;
+  border-radius: 5px;
+}
+
+.rating__text {
+  color: var(--main-color);
+  font-weight: 700;
+}
