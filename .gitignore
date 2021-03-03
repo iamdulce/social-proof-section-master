@@ -16,4 +16,4 @@
 
 
 #This way the git other folder is not showed
-.git.other
+\.git.other
