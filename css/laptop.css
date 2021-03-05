@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial-card {
+  margin-right: 3rem;
+}

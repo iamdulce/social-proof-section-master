@@ -1,0 +1,19 @@
+body {
+  font-size: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.rating__icons,
+.rating__text {
+  margin-left: 4rem;
+}
