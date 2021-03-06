@@ -1,5 +1,9 @@
 body {
   font-size: 1.5rem;
+  background-image: url(../images/bg-pattern-top-desktop.svg),
+    url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .hero h1 {

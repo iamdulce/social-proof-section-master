@@ -5,6 +5,7 @@
   --aditional-txt: hsl(333, 80%, 67%);
 }
 
+/*Global styles*/
 * {
   margin: 0;
   padding: 0;
@@ -20,24 +21,10 @@ html {
 body {
   margin: 0 auto;
   font-size: 1.2rem;
-}
-
-.hero > h1 {
-  color: var(--main-color);
-  /* margin: 60px 20px 0; */
-  text-align: center;
-  font-size: 3rem;
-  max-width: 450px;
-  margin: auto;
-}
-
-.hero > p {
-  color: var(--main-color);
-  /* margin: 30px 20px 0; */
-  text-align: center;
-  line-height: 1.6;
-  max-width: 450px;
-  margin: auto;
+  background-image: url(../images/bg-pattern-top-mobile.svg),
+    url(../images/bg-pattern-bottom-mobile.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 header,
@@ -47,6 +34,28 @@ header,
   max-width: 1440px;
 }
 
+/*Hero section*/
+.hero {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.hero > h1 {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 3rem;
+  padding: 40px 0 0;
+}
+
+.hero > p {
+  color: var(--main-color);
+  text-align: center;
+  line-height: 1.6;
+  max-width: 380px;
+  padding-top: 20px;
+}
+
+/*Rating section*/
 .ratings-container {
   padding: 40px 0 0;
 }
@@ -70,6 +79,7 @@ header,
   text-align: center;
 }
 
+/*Testimonail section*/
 .testimonial-card {
   background-color: var(--main-color);
   margin: 0 auto;
