@@ -1,5 +1,5 @@
-body {
-  font-size: 1.2rem;
+.cotainer{
+	gri
 }
 
 header {
@@ -10,12 +10,13 @@ header {
 header,
 .testimonials-container {
   margin: 0 auto;
-  padding: 40px 60px 0;
+  padding: 40px 10px 0;
   max-width: 1440px;
 }
 
 .hero {
   margin: 0;
+  padding-right: 50px;
 }
 
 .hero > h1 {
@@ -27,39 +28,42 @@ header,
   margin: 0;
 }
 
-.rating {
-  width: fit-content;
+.ratings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .rating:first-child {
-  margin-left: -100px;
+  transform: translateX(-8rem);
 }
 
 .rating:nth-child(0n + 2) {
-  margin-left: -50px;
+  transform: translateX(-4rem);
 }
 
 .testimonials-container {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-start;
+  height: 310px;
 }
 
 .testimonial-card {
   margin: 0;
   min-height: 180px;
+  height: 100%;
 }
 
 article:first-child {
-  margin-top: 1rem;
   margin-right: 3rem;
 }
 
 article:nth-child(0n + 2) {
-  margin-top: 3rem;
+  transform: translateY(3rem);
   margin-right: 3rem;
 }
 
 article:nth-child(0n + 3) {
-  margin-top: 5rem;
+  transform: translateY(6rem);
 }

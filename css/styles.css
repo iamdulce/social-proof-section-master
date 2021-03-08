@@ -20,7 +20,7 @@ html {
 
 body {
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 1.2rem;
   background-image: url(../images/bg-pattern-top-mobile.svg),
     url(../images/bg-pattern-bottom-mobile.svg);
@@ -37,7 +37,7 @@ header,
 
 /*Hero section*/
 .hero {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -52,7 +52,6 @@ header,
   color: var(--main-color);
   text-align: center;
   line-height: 1.6;
-  max-width: 380px;
   padding-top: 20px;
 }
 
@@ -85,7 +84,7 @@ header,
   background-color: var(--main-color);
   margin: 0 auto;
   margin-top: 1.3rem;
-  padding: 2.5rem;
+  padding: 3rem;
   color: var(--secondary-color);
   border-radius: 5px;
   width: 100%;
@@ -102,6 +101,7 @@ header,
   border-radius: 50px;
   max-width: 40px;
   margin-right: 20px;
+  display: block;
 }
 
 .metadata {
@@ -109,7 +109,13 @@ header,
 }
 
 .metadata p {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.metadata > .status {
   color: var(--aditional-txt);
+  font-weight: normal;
 }
 
 .testimonial-card__text {
@@ -118,7 +124,7 @@ header,
 }
 
 .attribution {
-  margin: 40px 20px 0;
+  margin: 80px 20px 0;
   text-align: center;
   font-size: 1rem;
 }

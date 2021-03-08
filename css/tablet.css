@@ -10,6 +10,10 @@ body {
   font-size: 4rem;
 }
 
+.hero p {
+  margin: 0 auto;
+}
+
 .rating {
   display: flex;
   justify-content: initial;
